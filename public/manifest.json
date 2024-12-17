@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "RubyDesk",
+  "version": "1.0.0",
+  "description": "可愛動物陪伴你工作，RubyDesk!",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["assets/ruby.JPG"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
